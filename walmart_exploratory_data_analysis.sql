@@ -1,6 +1,5 @@
 -- Exploratory data analysis
 
--- Generic Question
 -- How many unique cities does the data have?
 select count(distinct city) as unique_cities
 from walmart_data;
